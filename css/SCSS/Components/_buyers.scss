@@ -1,0 +1,55 @@
+.buyers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.block {
+  background-color: var(--very-dark-magenta);
+  color: var(--white);
+  font-weight: 500;
+  border-radius: 13px;
+  padding: 2.257rem 2rem;
+  max-width: 25rem;
+  height: 100%;
+  text-align: left;
+  &:nth-child(2){
+    transform: translateY(2rem);
+  }
+  &:nth-child(3){
+    transform: translateY(4rem);
+  }
+}
+.block-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.block-img {
+  padding-right: 1.42rem;
+  img{
+    width: 40px;
+    border-radius: 50%;
+  }
+}
+.block-name {
+  h2{
+    font-size: 0.95rem;
+    font-weight: 600;
+    padding-bottom: 4px;
+  }
+  p{
+    font-size: 0.92rem;
+    font-weight: 400;
+    color: var(--soft-pink);
+  }
+}
+.content {
+  margin-top: 1.5rem;
+  p{
+    font-size: var(--fs-500);
+    font-weight: 400;
+    line-height: 1.35;
+  }
+}
